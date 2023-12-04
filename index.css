@@ -1,0 +1,86 @@
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+main {
+    text-align: center;
+    width: 25rem;
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.image {
+    width: 25rem;
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.payment {
+    border: 5px solid hsl(245, 75%, 52%);
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+button:hover {
+    background-color:hsl(245, 75%, 52%);
+    
+}
+
+.sub {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 25px;
+    background-color:hsl(225, 100%, 98%) ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.music{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 15px;
+}
+.change{
+    color: blue;
+    text-decoration: underline;
+}
+
+#jamal{
+    padding-left: 30px;
+    padding-right: 30px;
+    color:d9d9d9
+    ;
+}
+.container{
+    background-color: white;
+}
+button:hover{
+    background: blue;
+    cursor: pointer;
+}
